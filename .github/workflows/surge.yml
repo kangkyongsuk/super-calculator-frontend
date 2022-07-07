@@ -22,7 +22,7 @@ jobs:
       - name: Deploy to **-100.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'super-cal-fe-1000.surge.sh'
+          domain: 'super-cal-fe-kks.surge.sh'
           project: 'build'
           login: ${{ secrets.SURGE_EMAIL }}
           token: ${{ secrets.SURGE_TOKEN }}
